@@ -111,4 +111,4 @@ curl -L
 2. Update latest tag:
 
 
-`docker buildx build --push --platform linux/arm64,linux/arm/v7,linux/amd64 --build-arg VERSION=v4.20.1 -t stremio/server:latest .`
+`docker buildx build --push --platform linux/arm64,linux/arm/v7,linux/amd64 --build-arg VERSION=v4.20.1 -t stremio/server:latest `
